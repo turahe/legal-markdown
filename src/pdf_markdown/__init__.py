@@ -15,9 +15,9 @@ from urllib.request import Request, urlopen
 class PDFMarkdown:
     """Download legal PDFs, convert them, and format the Markdown output."""
 
-    pdf_url = "https://peraturan.bpk.go.id/Download/411430/Salinan%20PBPK%201%20Tahun%202026.pdf"
-    default_pdf = "Salinan_PBPK_1_Tahun_2026.pdf"
-    default_markdown = "Salinan_PBPK_1_Tahun_2026.md"
+    pdf_url = "https://peraturan.bpk.go.id/Download/32336/UU%20Nomor%2026%20Tahun%202003.pdf"
+    default_pdf = "1.pdf"
+    default_markdown = "2.md"
     prompt_legal = """
 You are an expert assistant specializing in converting Indonesian legal and regulatory documents (laws, regulations, decrees) into Markdown.
 Your goal is to format the output so that its structure and layout match the original PDF as closely and precisely as possible.
